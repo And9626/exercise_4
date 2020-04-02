@@ -1,8 +1,10 @@
 #goal definition
-int32 position
+float32 position
+float32 init_pos
+float32 max_velocity
 ---
 #result definition
-int32 final_position
+float32 final_position
 ---
 #feedback
-int32 current_position
+float32 current_position
